@@ -1,6 +1,5 @@
-import buildHome from "./home.js";
-import "./style.css";
+import buildHome from "./home";
+import "./style.css"
 
 buildHome();
-
-console.log("123");
+console.log(123);
