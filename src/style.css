@@ -56,3 +56,26 @@
     padding-right: 16px;
 }
 
+#main{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 20px;
+}
+
+.next{
+    display: flex;
+    flex-direction: column;
+}
+
+.next nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#add{
+    background-color: #7eb858;
+}
+
+#cancel{
+    background-color: #b85858;
+}
